@@ -13,13 +13,10 @@ import {
   UsersIcon,
   ArchiveIcon,
 } from "@heroicons/react/outline";
-import { signOut, useSession } from "next-auth/client";
 
 import HeaderIcon from "./HeaderIcon";
 
 function Header() {
-  const [session] = useSession();
-
   return (
     <div className="sticky top-0 z-50 bg-white flex items-center p-2 lg:px-5 shadow-md">
       <div className="flex items-center">
@@ -53,15 +50,14 @@ function Header() {
 
       {/* Profile*/}
       <div className="flex justify-end items-center sm:space-x-2 ">
-        {/*<Image
-          onClick={signOut}
+        <Image
           className="rounded-full cursor-pointer"
-          src={session.user.image}
-          width="40"
-          height="40"
+          src="https://pbs.twimg.com/media/EWF7yULUcAIZ9Wo.jpg"
+          width={40}
+          height={40}
           layout="fixed"
         />
-       */}
+
         <p className="font-semibold pr-3 whitespace-nowrap">Kishibe Rohan</p>
         <ViewGridIcon className="icon" />
         <ChatIcon className="icon" />

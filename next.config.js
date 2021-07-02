@@ -4,8 +4,9 @@ module.exports = {
     domains: [
       "1000logos.net",
       "platform-lookaside.fbsbx.com",
-      "firebasestorage.googleapis.com",
       "pbs.twimg.com",
+      "dexerto.com",
+      "i.ytimg.com",
     ],
   },
 };
