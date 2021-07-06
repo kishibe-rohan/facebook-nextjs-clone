@@ -15,7 +15,7 @@ const stories = [
   {
     name: "itsHafu",
     story: "https://pbs.twimg.com/media/DO3H09PUMAAT8wj.jpg",
-    profile: "https://pbs.twimg.com/media/DO3H09PUMAAT8wj.jpg",
+    profile: "https://pbs.twimg.com/media/DV-lu6cXkAAgoVd.jpg",
   },
   {
     name: "Finn Balor",

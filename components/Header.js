@@ -18,7 +18,7 @@ import HeaderIcon from "./HeaderIcon";
 
 function Header() {
   return (
-    <div className="sticky top-0 z-50 bg-white flex items-center p-2 lg:px-5 shadow-md">
+    <div className="top-0 z-50 bg-white flex items-center p-2 lg:px-5 shadow-md">
       <div className="flex items-center">
         <Image
           src="https://1000logos.net/wp-content/uploads/2021/04/Facebook-logo-768x480.png"
