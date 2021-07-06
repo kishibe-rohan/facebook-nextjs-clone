@@ -6,7 +6,12 @@ function Post({ title, description, profile, timestamp, media }) {
     <div className="flex flex-col">
       <div className="p-5 bg-white mt-5 rounded-t shadow-sm">
         <div className="flex items-center space-x-2">
-          <img src={profile} width={40} height={40} className="rounded-full" />
+          <Image
+            src={profile}
+            width={40}
+            height={40}
+            className="rounded-full"
+          />
           <div>
             <p className="font-medium">{title}</p>
 
